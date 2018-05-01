@@ -1,0 +1,176 @@
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .headIntro > p, .text > p {
+    font-size: 2.6rem;
+    line-height: 5.3rem; }
+  .mainBody {
+    margin-left: 4%; }
+  .headIntro {
+    margin: auto;
+    position: absolute;
+    top: 290px;
+    bottom: auto;
+    height: 320px;
+    width: 850px;
+    left: 58px; }
+  .headIntro > p:nth-child(1) {
+    font-size: 7.1rem;
+    margin-bottom: 80px;
+    line-height: 9rem;
+    font-weight: 600; }
+  .headMyWords {
+    height: 80rem; }
+  .firstBlock > .firstBlockImg {
+    margin-left: 58px;
+    width: 800px;
+    height: 800px;
+    overflow: hidden; }
+  .firstBlock {
+    display: block;
+    height: auto;
+    margin-bottom: 363px; }
+  .projects > div {
+    height: auto; }
+  .decorBack1 {
+    width: 800px;
+    height: 803px;
+    margin-top: 63px;
+    z-index: -2; }
+  .decorBack2 {
+    display: none; }
+  .siderTitles {
+    display: none; }
+  .textBlock {
+    -ms-flex: none;
+    flex: none;
+    -webkit-box-flex: initial;
+    margin-left: 58px;
+    max-width: initial;
+    width: 69em;
+    margin-top: 140px; }
+  .head > p {
+    font-weight: 600;
+    font-size: 5rem; }
+  .learnMore {
+    width: 460px;
+    height: 158px;
+    position: relative;
+    margin-left: 58px;
+    margin-top: 102px;
+    border-width: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .learnMore > a {
+    display: block;
+    font-size: 3.8rem;
+    text-align: center;
+    top: 50%;
+    height: 30px;
+    position: relative;
+    margin-top: -15px; }
+  .mainBody.container .projects .RightStory .firstBlock img {
+    margin-top: -180px; }
+  .mainBody.container .projects .Avatar .firstBlock img {
+    margin-top: -130px; }
+  .mainBody.container .projects .Form .firstBlock img {
+    margin-top: -220px; }
+  .mainBody.container .projects .Spark .firstBlock img {
+    margin-top: -260px; } }
+
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+@media only screen and (max-width: 664px) and (min-device-width: 1080px) {
+  .mainBody {
+    margin-left: 4%; }
+  .headIntro {
+    margin: auto;
+    position: relative;
+    top: 72px;
+    bottom: auto;
+    height: auto;
+    width: 100%;
+    left: 0px; }
+  .headIntro > p, .text > p {
+    font-size: 1.6rem;
+    line-height: 3.3rem; }
+  .headIntro > p:nth-child(1) {
+    font-size: 3.1rem;
+    margin-bottom: 8px;
+    line-height: 5rem;
+    font-weight: 600; }
+  .headMyWords {
+    margin-bottom: 108px; }
+  .firstBlock > .firstBlockImg {
+    margin-left: 0px;
+    width: 90vw;
+    height: 90vw;
+    overflow: hidden; }
+  .firstBlock {
+    display: block;
+    height: auto;
+    margin-bottom: 17vw; }
+  .projects > div {
+    height: auto; }
+  .decorBack1 {
+    width: 90vw;
+    height: 90vw;
+    margin-top: 13px;
+    z-index: -2;
+    margin-left: -8px; }
+  .decorBack2 {
+    display: none; }
+  .siderTitles {
+    display: none; }
+  .textBlock {
+    -ms-flex: none;
+    flex: none;
+    -webkit-box-flex: initial;
+    margin-left: 0px;
+    max-width: initial;
+    width: 100%;
+    margin-top: 60px; }
+  .head > p {
+    font-weight: 600;
+    font-size: 3rem; }
+  .learnMore {
+    width: 50vw;
+    height: 21vw;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 102px;
+    border-width: 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .learnMore > a {
+    display: block;
+    font-size: 6vw;
+    text-align: center;
+    top: 50%;
+    height: 30px;
+    position: relative;
+    margin-top: -15px; }
+  .mainBody.container .projects .RightStory .firstBlock img {
+    margin-top: -90px; }
+  .mainBody.container .projects .Avatar .firstBlock img {
+    margin-top: -110px; }
+  .mainBody.container .projects .Form .firstBlock img {
+    margin-top: -130px; }
+  .mainBody.container .projects .Spark .firstBlock img {
+    margin-top: -133px; } }
