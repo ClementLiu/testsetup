@@ -1,0 +1,19 @@
+author: CCC
+defaults:
+- scope: {path: assets/img}
+  values: {image: true}
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+
+  '
+email: CC@domain.com
+exclude: [assets, package.json, README.md, gulpfile.js, node_modules]
+keep_files: [assets]
+message: true
+message-content: 'TestMessageTestMessageTestMessageTestMessage TestMessage TestMessage
+  TestMessage TestMessage TestMessage '
+message-title: TestMessage
+name: testsetup
+plugins: [jekyll-feed, jekyll-seo-tag]
+title: Your awesome title
