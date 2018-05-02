@@ -66,12 +66,12 @@ gulp.task('watch-sass', function() {
         .pipe(gulp.dest('_site/assets/css/'))
         .pipe(browserSync.stream());
 });
-gulp.task('images-rebuild', function(cb) {
+// gulp.task('images-rebuild', function(cb) {
 
-    gulp.src('_assets/img/**/*.*')
-        .pipe(gulp.dest('_site/assets/img/'))
-        .pipe(browserSync.stream());
-});
+//     gulp.src('_assets/img/**/*.*')
+//         .pipe(gulp.dest('_site/assets/img/'))
+//         .pipe(browserSync.stream());
+// });
 
 //Watch task
 // gulp.task('default',function() {

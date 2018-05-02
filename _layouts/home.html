@@ -5,7 +5,11 @@
 <body>
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
-          <div class="test2"></div>
+            <div class="test2">
+                {% assign image_files = site.static_files | where: "image", true %} {% for myimage in image_files %} {% comment %}{{ myimage.path }}{% endcomment %} 
+                <img src="{{myimage.path}}" style="width: 100%">
+                {% endfor %}
+            </div>
         </div>
     </main>
 </body>

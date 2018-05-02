@@ -1,7 +1,9 @@
 author: CCC
 defaults:
-- scope: {path: assets/img}
-  values: {image: true}
+- scope: 
+    path: imges
+  values: 
+    image: true
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
@@ -17,3 +19,6 @@ message-title: TestMessage
 name: testsetup
 plugins: [jekyll-feed, jekyll-seo-tag]
 title: Your awesome title
+
+
+# add img
