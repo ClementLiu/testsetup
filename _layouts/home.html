@@ -6,9 +6,11 @@
     <main class="page-content" aria-label="Content">
         <div class="wrapper">
             <div class="test2">
-                {% assign image_files = site.static_files | where: "image", true %} {% for myimage in image_files %} {% comment %}{{ myimage.path }}{% endcomment %} 
-                <img src="{{myimage.path}}" style="width: 100%">
-                {% endfor %}
+                {% assign image_files = site.static_files | where: "image", true %} {% for myimage in image_files %} {% comment %}{{ myimage.path }}{% endcomment %}
+                <a href="{{myimage.path}}">
+                    <p>"{{myimage.name | remove:".jpg" | remove: ".gif"}}"</p>
+                    <img src="{{myimage.path}}" style="height: 100vh">
+                </a> {% endfor %}
             </div>
         </div>
     </main>
